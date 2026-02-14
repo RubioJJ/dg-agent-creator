@@ -1,0 +1,24 @@
+{
+  "id": "dg-agent-creator",
+  "title": "DG Agent Creator",
+  "description": "Criador de Agentes para Delta Green",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Rubio" }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "main.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "deltagreen",
+        "type": "system"
+      }
+    ]
+  }
+}
